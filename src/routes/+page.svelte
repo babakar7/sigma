@@ -91,7 +91,7 @@
                 <div class="image-container">
 
                     <video controls autoplay muted playsinline>
-                        <source src="tenet.mov" type="video/mp4" >
+                        <source src="tenet1.mov" type="video/mp4" >
                         Your browser does not support the video tag.
                       </video>
 
