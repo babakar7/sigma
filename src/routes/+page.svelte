@@ -166,7 +166,8 @@
         }
         .section {
             min-height: calc(100svh - 90px); 
-            @apply px-2 sm:px-10;      
+            @apply px-2;
+            @apply sm:px-10;      
             margin-bottom: 50px;
         }
         .tracking {
