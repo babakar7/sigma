@@ -7,5 +7,21 @@ html {
   }
   body {
     color: #fafafa;
-    background-color: #1d1d1d;
+    background-color: #000000;
+    font-family:"Josefin Sans";
+
   }
+  h1 {
+    font-family: 'Black Ops One', system-ui;
+    @apply  text-2xl sm:text-3xl lg:text-5xl;
+  }
+
+  p{
+    @apply tracking-body;
+    @apply  text-sm sm:text-xl !important;
+  }
+
+  .tracking-body{
+    letter-spacing: 0.15em;
+
+}

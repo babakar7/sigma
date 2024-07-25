@@ -14,11 +14,13 @@ export default {
       },
       colors: {
         bgSecondary: "#333333",
-        bgPrimary:"1d1d1d"
+        bgPrimary:"#00000",
+        accentPrimary:"#8C50F5",
+        accentPrimaryHover:"#46287b"
 
       },
       boxShadow: {
-        'custom': '0px 5px 15px rgba(0, 0, 0, 0.5)',
+        'custom': '0px 5px 10px rgba(128, 128, 128, 0.5)',
       },
 
 
