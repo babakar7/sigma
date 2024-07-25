@@ -26,6 +26,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/black-ops-one": "^5.0.13",
-		"@fontsource/josefin-sans": "^5.0.20"
+		"@fontsource/josefin-sans": "^5.0.20",
+		"@sveltejs/adapter-static": "^3.0.2"
 	}
 }

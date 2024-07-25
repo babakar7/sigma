@@ -11,6 +11,11 @@ html {
     font-family:"Josefin Sans";
 
   }
+  .section {
+    min-height: calc(100svh - 90px); 
+    @apply px-2 sm:px-10;      
+    margin-bottom: 50px;
+}
   h1 {
     font-family: 'Black Ops One', system-ui;
     @apply  text-2xl sm:text-3xl lg:text-5xl;

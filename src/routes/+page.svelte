@@ -164,12 +164,7 @@
             background-size: cover;
             background-position: center;
         }
-        .section {
-            min-height: calc(100svh - 90px); 
-            @apply px-2;
-            @apply sm:px-10;      
-            margin-bottom: 50px;
-        }
+
         .tracking {
             letter-spacing: 0.15em;
         }
