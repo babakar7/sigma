@@ -8,10 +8,6 @@ export default {
   theme: {
     extend: {
 
-      fontFamily: {
-        railway: ["Raleway Variable", "sans-serif"],
-        poppins:["Poppins", "sans-serif"]
-      },
       colors: {
         bgSecondary: "#333333",
         bgPrimary:"#00000",

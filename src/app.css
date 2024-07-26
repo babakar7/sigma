@@ -2,31 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
-  }
-  body {
-    color: #fafafa;
-    background-color: #000000;
-    font-family:"Josefin Sans";
-
-  }
-  .section {
-    min-height: calc(100svh - 90px); 
-    @apply px-2 sm:px-10;      
-    margin-bottom: 50px;
+@font-face {
+  font-family: 'NineTies Headliner';
+  src: local('NineTies Headliner'), 
+       url('/NinetiesHeadliner-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-display: swap;
 }
-  h1 {
-    font-family: 'Black Ops One', system-ui;
-    @apply  text-2xl sm:text-3xl lg:text-5xl;
-  }
 
-  p{
-    @apply tracking-body;
-    @apply  text-sm sm:text-xl !important;
-  }
+@font-face {
+  font-family: 'Perfectly Nineties';
+  src: local('Perfectly Nineties'), 
+       url('/PerfectlyNineties-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-display: swap;
+}
 
-  .tracking-body{
-    letter-spacing: 0.15em;
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  color: #fafafa;
+  background-color: #000000;
+  font-family: 'Perfectly Nineties', sans-serif;
+}
+
+.section {
+  min-height: calc(100svh - 90px); 
+  @apply px-2 sm:px-10;      
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: 'NineTies Headliner', sans-serif;
+  @apply text-2xl sm:text-3xl lg:text-5xl;
+}
+
+p {
+  @apply tracking-body text-sm sm:text-xl !important;
+}
+
+.tracking-body {
+  letter-spacing: 0.15em;
 }
