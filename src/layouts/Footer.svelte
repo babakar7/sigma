@@ -9,8 +9,8 @@
         <a href="/">
         <img src="sigma-pfp1.png" alt="sigma" class="h-[40px] inline-block ">
         </a>
-        <span class="text-[11px] sm:text-xs">$SIGMA IS A MEME TOKEN FOR ENTERTAINEMENT PURPOSES ONLY, WITH NO EXPECTATION OF PROFIT
-            OR PRICE INCREASE. THER IS NO FORMAL TEAM OR ROADMAP. 
+        <span class="text-[11px] sm:text-xs">$SIGMA IS A MEME TOKEN FOR ENTERTAINMENT PURPOSES ONLY, WITH NO EXPECTATION OF PROFIT
+            OR PRICE INCREASE. THERE IS NO FORMAL TEAM OR ROADMAP. 
         </span>
     </div>
 
