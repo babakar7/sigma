@@ -16,7 +16,7 @@ flex-nowrap px-4 sm:px-[100px]  py-[20px] shadow-custom  navbar fixed top-0 z-20
 
 <div class="cursor-pointer">
 <a href="/">
-<img src="sigma-pfp1.png" alt="sigma" class="h-[50px]  rounded-full border-1   object-cover inline-block ">
+<img src="sigma-pfp1.png" alt="sigma" class="h-[40px] inline-block ">
 </a>
 </div>
 
@@ -49,7 +49,9 @@ flex-nowrap px-4 sm:px-[100px]  py-[20px] shadow-custom  navbar fixed top-0 z-20
 </button>
 
 <div class="hidden lg:block">
-    <button on:click= {()=>{window.location.href="/#how-to-buy"}} class="mr[100px] bg-accentPrimary hover:bg-accentPrimaryHover transition-colors duration-300 px-4 py-2 rounded-lg">
+    <button on:click= {()=>{window.location.href="/#how-to-buy"}} class="mr[100px]
+         bg-accentPrimary hover:bg-accentPrimaryHover transition-colors duration-300 
+         px-4 py-2 rounded-lg text-black">
     BUY $SIGMA
     </button>
 </div>

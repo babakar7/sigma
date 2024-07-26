@@ -15,8 +15,8 @@ export default {
       colors: {
         bgSecondary: "#333333",
         bgPrimary:"#00000",
-        accentPrimary:"#8C50F5",
-        accentPrimaryHover:"#46287b"
+        accentPrimary:"#fff500",
+        accentPrimaryHover:"#c4bd00"
 
       },
       boxShadow: {

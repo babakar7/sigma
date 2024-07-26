@@ -5,9 +5,9 @@
 
 <div class="grid grid-cols-1 md:grid-cols-2 px-10 mb-10 gap-4">
 
-    <div class="cursor-pointer flex flex-col justify-center items-center lg:items-start">
+    <div class="cursor-pointer flex flex-col justify-center items-center lg:items-start space-y-1">
         <a href="/">
-        <img src="sigma-pfp1.png" alt="sigma" class="h-[50px]  rounded-full border-1   object-cover inline-block ">
+        <img src="sigma-pfp1.png" alt="sigma" class="h-[40px] inline-block ">
         </a>
         <span class="text-[11px] sm:text-xs">$SIGMA IS A MEME TOKEN FOR ENTERTAINEMENT PURPOSES ONLY, WITH NO EXPECTATION OF PROFIT
             OR PRICE INCREASE. THER IS NO FORMAL TEAM OR ROADMAP. 
