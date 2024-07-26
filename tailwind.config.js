@@ -12,7 +12,7 @@ export default {
         bgSecondary: "#333333",
         bgPrimary:"#00000",
         accentPrimary:"#fff500",
-        accentPrimaryHover:"#c4bd00"
+        accentPrimaryHover:"#70587C"
 
       },
       boxShadow: {

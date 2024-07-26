@@ -62,6 +62,8 @@
                 <div class="image-container">
                 <img src="tyler.jpeg" alt="sigma" class="shadow-custom">
                 <div class="tint-overlay"></div>
+                <img class="laser-td" src="laser.png" alt="Laser Eyes">
+
                 </div>
 
         </div>
@@ -110,7 +112,8 @@
                     </p>
                     <p class="text-xl">STEP 4: Get back to the trillionaire grindset and be a sigma. 
                     </p>
-                    <p class="text-lg cursor-pointer bg-bgSecondary py-2 px-4 rounded-md"
+
+                    <button class="text-lg cursor-pointer bg-bgSecondary py-2 px-4 rounded-md"
                     on:click={() => {
                         navigator.clipboard.writeText("5SVG3T9CNQsm2kEwzbRq6hASqh1oGfjqTtLXYUibpump")
                             .then(() => {
@@ -127,7 +130,7 @@
                                 console.error('Failed to copy text: ', err);
                             });
                     }}
-                >{copyText}    <Icon icon="{copyIcon}" class="inline-block ml-1" /></p>
+                >{copyText}    <Icon icon="{copyIcon}" class="inline-block ml-1 text-accentPrimary"  /></button>
                     </div>
             </div>
 
@@ -193,16 +196,32 @@
         }
         .laser {
             position: absolute;
-            top:31%;
-            left:15%;
-            width: 70%; /* Adjust the size of the laser eyes */
+            top:25%;
+            left:20%;
+            width: 60%; /* Adjust the size of the laser eyes */
             height: auto;
             z-index: 10; /* Ensure the laser eyes are above the main image */
             opacity:0;
             transition: opacity 0.4s ease-in-out;
 
         }
-        .image-container:hover .laser {
+
+        .laser-td {
+            position: absolute;
+            top:20%;
+            left:20%;
+            width: 60%; /* Adjust the size of the laser eyes */
+            height: auto;
+            z-index: 10; /* Ensure the laser eyes are above the main image */
+            opacity:0;
+            transition: opacity 0.4s ease-in-out;
+
+        }
+        .image-container:hover .laser{
+      opacity: 1;
+    }
+
+    .image-container:hover .laser-td{
       opacity: 1;
     }
     </style>
