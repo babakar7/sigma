@@ -1,9 +1,12 @@
 <script>
     import Icon from '@iconify/svelte';
+    import Saos from "saos";
+
 
 </script>
+<Saos animation={ "slide-in-bottom 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 
-<div class="grid grid-cols-1 md:grid-cols-2 px-10 mb-10 gap-4">
+<div class="grid grid-cols-1 md:grid-cols-2 px-10 mb-20 gap-4">
 
     <div class="cursor-pointer flex flex-col justify-center items-center lg:items-start space-y-1">
         <a href="/">
@@ -36,6 +39,7 @@
     </div>
     
 </div>
+</Saos>
 
 
 <style>

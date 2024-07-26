@@ -163,10 +163,7 @@
     }
   }
         
-        .bg-img{
-            background-size: cover;
-            background-position: center;
-        }
+      
 
         .tracking {
             letter-spacing: 0.15em;
