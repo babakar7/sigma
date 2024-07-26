@@ -22,7 +22,7 @@
         <ul class="flex justify-center space-x-10 tracking ">
             <li class="cursor-pointer"> 
                 <a href="https://dexscreener.com/solana/424kbbjyt6vksn7gekt9vh5yetutr1sbeyoya2nmbjpw" target="_blank">
-                <Icon icon="typcn:chart-line"  class="inline-block mr-1  text-accentPrimary hover:text-accentPrimaryHover " width="20"/> <span class="hover:text-accentPrimary transition-all duration-300">CHART</span>
+                <Icon icon="typcn:chart-line"  class="inline-block mr-1  text-accentPrimary  " width="20"/> <span class="hover:text-accentPrimary transition-all duration-300">CHART</span>
                 </a></li>
                 
             <li  class="cursor-pointer" > 
@@ -45,7 +45,6 @@
 <style>
       .tracking{
         letter-spacing: 0.15em; 
-
     }
 
 </style>
