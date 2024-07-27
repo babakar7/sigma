@@ -21,7 +21,7 @@
             </div>
             <div class="flex flex-col items-center justify-start pt-[50px] lg:pt-[200px]  ">
                 <h1 class="tracking text-center">THE SIGMA ARMY ON SOLANA</h1>
-                <p class="text-xl text-center mt-10 uppercase "> For the first time in history an army of sigmas has been united under one  mission: 
+                <p class="text-xl text-center mt-10 uppercase "> For the first time in history an army of sigmas have been united under one  mission: 
                     Create a culture of strong men with an unwavering sense of self-belief. Defy social norms & be brave enough to change the world. 
                 </p>
                 <p class="uppercase mt-10 ">$sigma trillionaire grindset</p>
