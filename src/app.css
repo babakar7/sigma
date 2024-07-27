@@ -18,14 +18,28 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Perfectly Nineties';
+  src: local('Perfectly Nineties'), 
+       url('/PerfectlyNineties-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+
+/* Apply custom cursor to specific elements */
+.custom-cursor {
+  cursor: url('cursor.png'), auto;
+}
 body {
   color: #fafafa;
   background-color: #000000;
   font-family: 'Perfectly Nineties', sans-serif;
+  cursor: url('cursor.png'), auto;
 }
 
 .section {

@@ -3,9 +3,6 @@
     let isMenuOpen = false
     import { slide } from 'svelte/transition';
 
-    import Saos from "saos";
-
-
 </script>
 
 
@@ -56,7 +53,7 @@ flex-nowrap px-4 sm:px-[100px]  py-[20px] shadow-custom  navbar fixed top-0 z-20
 <div class="hidden lg:block">
     <button on:click= {()=>{window.location.href="/#how-to-buy"}} class="mr[100px]
          bg-accentPrimary transition-all duration-300 
-         px-4 py-2 rounded-lg text-black hover-glow">
+         px-4 py-2 rounded-lg text-black hover-glow font-bold tracking-widest">
     BUY $SIGMA
     </button>
 </div>

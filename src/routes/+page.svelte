@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="flex flex-col items-center justify-start pt-[50px] lg:pt-[200px]  ">
-                <h1 class="tracking text-center">THE SIGMA ARMY ON SOLANA.</h1>
+                <h1 class="tracking text-center">THE SIGMA ARMY ON SOLANA</h1>
                 <p class="text-xl text-center mt-10 uppercase "> For the first time in history an army of sigmas has been united under one  mission: 
                     Create a culture of strong men with an unwavering sense of self-belief. Defy social norms & be brave enough to change the world. 
                 </p>
@@ -113,7 +113,8 @@
                     <p class="text-xl">STEP 4: Get back to the trillionaire grindset and be a sigma. 
                     </p>
 
-                    <button class="text-lg cursor-pointer bg-bgSecondary py-2 px-4 rounded-md"
+                    <button class="text-lg cursor-pointer bg-bgSecondary py-2 px-4 rounded-md uppercase
+                    border border-transparent hover:border-accentPrimary transition-all duration-300"
                     on:click={() => {
                         navigator.clipboard.writeText("5SVG3T9CNQsm2kEwzbRq6hASqh1oGfjqTtLXYUibpump")
                             .then(() => {
