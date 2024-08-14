@@ -80,6 +80,11 @@ flex-nowrap px-4 sm:px-[100px]  py-[20px] shadow-custom  navbar fixed top-0 z-20
             <a href="https://web.telegram.org/k/#-2156631854" target="_blank">
             <Icon icon="ic:baseline-telegram" class="inline-block mr-1 text-accentPrimary" width="20" /> <span class="hover:text-accentPrimary transition-all duration-300">TELEGRAM</span>
         </a></li>
+
+        <li  class="cursor-pointer" > 
+            <a href="https://www.sigmafactory.fun/create" target="_blank" class="transition-all duration-300 hover:text-accentPrimary">
+            <Icon icon="fluent:emoji-meme-16-filled" class="inline-block mr-1 text-accentPrimary" width="20" /> <span class="">MEME FACTORY</span>
+        </a></li>
             
         </ul>
 </div>
