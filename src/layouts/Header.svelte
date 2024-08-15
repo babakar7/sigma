@@ -92,7 +92,7 @@ flex-nowrap px-4 sm:px-[100px]  py-[20px] shadow-custom  navbar fixed top-0 z-20
         </a></li>
 
         <li  class="cursor-pointer" > 
-            <a href="https://www.sigmafactory.fun/create" target="_blank" class="transition-all duration-300 hover:text-accentPrimary">
+            <a href="https://sigma.nofap.fun/" target="_blank" class="transition-all duration-300 hover:text-accentPrimary">
             <Icon icon="icon-park-solid:muscle" class="inline-block mr-1 text-accentPrimary" width="20" /> <span class="">NO FAP TRACKER</span>
         </a></li>
         </ul>
